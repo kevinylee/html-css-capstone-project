@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-around;
+    border-top: 0.3em solid black;
+    border-bottom: 0.3em solid black;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+    padding: 5em;
+}
+
+img {
+    max-width: 50%;
+    height: auto;
+    display: block;
+}
+
+.top-3 {
+    flex-direction: row;
+}
+
+.inputts {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.email {
+    padding-bottom: 0.4em;
+    padding-top: 0.5em;
+}

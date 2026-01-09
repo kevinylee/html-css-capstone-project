@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="layout.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="nav-bar">
+            <a href="index.html">Home</a>
+            <a href="ramen-form.html">Ramen Form</a>
+            <a href="favorites.html">Favorites</a>
+            <a href="links.html">Links</a>
+        </div>
+        <div>
+            <fieldset>
+                <legend>Discover Your Ramen</legend>
+                <div class="inputts">
+                    <div class="ramen-type">
+                        <p>Ramen Type:</p>
+                        <input type="checkbox" id="dry-chck" name="dry" value="dry" />
+                        <label for="dry-chck">dry</label>
+                        
+                        <input type="checkbox" id="soup-chck" name="soup" value="soup" />
+                        <label for="soup-chck">w/ soup</label>
+                    </div>
+                    <div>
+                        <p>Noodle Width:</p>
+                        <input type="radio" id="thick-chck" name="thick" value="thick" />
+                        <label for="thick-chck">Thick</label>
+
+                        <input type="radio" id="thin-chck" name="thin" value="thin" />
+                        <label for="thin-chck">Thin</label>
+
+                        <input type="radio" id="any-chck" name="any" value="any" />
+                        <label for="any-chck">Any</label>
+                    </div>
+                    <form>
+                        <p>Spice Level:</p>
+                        <input type="radio" id="spicy-chck" name="spice" value="spicy" />
+                        <label for="spicy-chck">Spicy</label>
+
+                        <input type="radio" id="nosp-chck" name="spice" value="nospicy" />
+                        <label for="nosp-chck">No Spicy</label>
+
+                        <input type="radio" id="mild-chck" name="spice" value="mild" />
+                        <label for="mild-chck">Mild</label>
+                    </form>
+                    <div class="email">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" />
+                    </div>
+                    <button type="button">Submit</button>
+                </div>
+            </fieldset>
+        </div>
+    </body>
+</html>
